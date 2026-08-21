@@ -1,1 +1,0 @@
-# bryanrafaelbueno.github.io

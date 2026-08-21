@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Bryan Rafael Bueno Ribeiro, desenvolvedor de software com projetos web, mobile, desktop e de sistemas."
+    />
+    <meta name="author" content="Bryan Rafael Bueno Ribeiro" />
+    <meta name="theme-color" content="#f2f0e9" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bryan Rafael Bueno Ribeiro | Desenvolvedor de Software" />
+    <meta
+      property="og:description"
+      content="Produtos úteis, interfaces bem pensadas e engenharia confiável."
+    />
+    <title>Bryan Rafael Bueno Ribeiro | Desenvolvedor de Software</title>
+    <link rel="icon" href="assets/profile/Transparente.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Ir para o conteúdo</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Bryan Rafael Bueno Ribeiro, início">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/profile/Transparente.png" alt="" width="300" height="307" />
+          </span>
+          <span class="brand-name">Bryan Rafael Bueno Ribeiro</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#work" data-i18n="navWork">Projetos</a>
+          <a href="#about" data-i18n="navAbout">Sobre</a>
+          <a href="#capabilities" data-i18n="navCapabilities">Competências</a>
+          <a href="#contact" data-i18n="navContact">Contato</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="language-switch" aria-label="Seletor de idioma">
+            <button type="button" data-language="pt" aria-pressed="true">PT</button>
+            <span aria-hidden="true">/</span>
+            <button type="button" data-language="en" aria-pressed="false">EN</button>
+          </div>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            data-menu-toggle
+          >
+            <span data-i18n="menu">Menu</span>
+            <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Navegação mobile" data-mobile-menu>
+        <a href="#work"><span>01</span><span data-i18n="navWork">Projetos</span></a>
+        <a href="#about"><span>02</span><span data-i18n="navAbout">Sobre</span></a>
+        <a href="#capabilities"><span>03</span><span data-i18n="navCapabilities">Competências</span></a>
+        <a href="#contact"><span>04</span><span data-i18n="navContact">Contato</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span data-i18n="heroKicker">Desenvolvedor de software · Ponta Grossa, Brasil</span>
+          </p>
+
+          <h1>Bryan Rafael<br />Bueno <em>Ribeiro.</em></h1>
+
+          <p class="hero-intro" data-i18n="heroIntro">
+            Sou estudante de Desenvolvimento de Sistemas no SENAI e desenvolvedor de software.
+            Crio produtos úteis para desktop, web, mobile, APIs e sistemas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              <span data-i18n="exploreWork">Ver o que eu construí</span>
+              <span class="button-arrow" aria-hidden="true">↘</span>
+            </a>
+            <a
+              class="text-link"
+              href="https://github.com/bryanrafaelbueno"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal reveal-delay" aria-label="Perfil profissional de Bryan Rafael">
+          <div class="profile-avatar">
+            <img
+              src="assets/profile/bryan-portrait.webp"
+              alt="Retrato de Bryan Rafael Bueno Ribeiro"
+              width="1080"
+              height="1350"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="profile-card-body">
+            <p class="profile-handle">
+              <span>GitHub</span>
+              <a href="https://github.com/bryanrafaelbueno" target="_blank" rel="noreferrer">
+                @bryanrafaelbueno ↗
+              </a>
+            </p>
+            <h2 data-i18n="profileRole">Desenvolvedor de software</h2>
+            <p data-i18n="profileStudy">Estudante de Desenvolvimento de Sistemas no SENAI</p>
+            <dl class="profile-card-facts">
+              <div>
+                <dt data-i18n="basedIn">Localização</dt>
+                <dd>Ponta Grossa · PR · Brasil</dd>
+              </div>
+              <div>
+                <dt data-i18n="experience">Prática</dt>
+                <dd data-i18n="experienceValue">Mais de 5 anos construindo</dd>
+              </div>
+            </dl>
+            <div class="profile-availability">
+              <span data-i18n="availability">Aberto a oportunidades em software</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="proof-strip section-shell" aria-label="Destaques do perfil">
+        <article class="proof-item reveal">
+          <strong>5+</strong>
+          <span data-i18n="yearsPractice">anos construindo software</span>
+        </article>
+        <article class="proof-item reveal reveal-delay-short">
+          <strong>20</strong>
+          <span data-i18n="publicRepos">repositórios públicos</span>
+        </article>
+        <article class="proof-item reveal reveal-delay">
+          <strong>05</strong>
+          <span data-i18n="productSurfaces">frentes de produto: web, API, mobile, desktop e sistemas</span>
+        </article>
+      </section>
+
+      <section class="work section-shell" id="work">
+        <div class="section-heading reveal">
+          <p class="section-index">01 / <span data-i18n="selectedWork">Projetos selecionados</span></p>
+          <h2 data-i18n="workHeading">Algumas coisas que eu construí.</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project project-featured project-synca reveal">
+            <div class="project-copy">
+              <div class="project-meta">
+                <span>01</span>
+                <span data-i18n="crossPlatform">Desktop multiplataforma</span>
+              </div>
+              <h3>Synca</h3>
+              <p class="project-lead" data-i18n="syncaLead">
+                Um cliente leve de sincronização com Google Drive para Linux e Windows, criado para
+                manter pastas locais alinhadas quase em tempo real.
+              </p>
+              <ul class="project-details">
+                <li data-i18n="syncaPoint1">Monitoramento de arquivos e sincronização bidirecional em segundo plano</li>
+                <li data-i18n="syncaPoint2">OAuth2, WebSockets e estratégias explícitas de conflito</li>
+                <li data-i18n="syncaPoint3">Builds de release e validações de CI em toda a stack</li>
+              </ul>
+              <div class="tech-list" aria-label="Technologies">
+                <span>Go</span><span>Rust</span><span>React</span><span>Tauri</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/bryanrafaelbueno/Synca" target="_blank" rel="noreferrer">
+                  <span data-i18n="sourceCode">Código-fonte</span> <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  href="https://github.com/bryanrafaelbueno/Synca/releases"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="viewReleases">Ver releases</span> <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <figure class="project-visual real-project-shot real-project-shot-synca">
+              <a
+                href="https://github.com/bryanrafaelbueno/Synca"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Abrir o repositório do Synca"
+              >
+                <img
+                  src="assets/projects/synca-ui.png"
+                  alt="Interface real do Synca mostrando arquivos sincronizados e status do serviço"
+                  width="1882"
+                  height="1011"
+                  loading="lazy"
+                />
+              </a>
+            </figure>
+          </article>
+
+          <article class="project project-featured project-delta reveal">
+            <div class="project-copy">
+              <div class="project-meta">
+                <span>02</span>
+                <span data-i18n="privacyWebApp">Web app com privacidade</span>
+              </div>
+              <h3>delta.tools</h3>
+              <p class="project-lead" data-i18n="deltaLead">
+                Uma plataforma privada e sem anúncios para conversão de arquivos, com processamento
+                no navegador e sem enviar os arquivos do usuário.
+              </p>
+              <ul class="project-details">
+                <li data-i18n="deltaPoint1">136 conversores integrados para imagem, mídia, PDF, arquivos e texto</li>
+                <li data-i18n="deltaPoint2">Plugins da comunidade isolados em sandbox e runtime offline-first</li>
+                <li data-i18n="deltaPoint3">Favoritos por conta, autenticação JWT e cobertura Playwright</li>
+              </ul>
+              <div class="tech-list" aria-label="Technologies">
+                <span>TypeScript</span><span>Vite</span><span>Express</span><span>WebAssembly</span>
+              </div>
+              <div class="project-links">
+                <a href="https://deltatools.vercel.app" target="_blank" rel="noreferrer">
+                  <span data-i18n="liveProduct">Abrir produto</span> <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  href="https://github.com/bryanrafaelbueno/delta.tools"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="sourceCode">Código-fonte</span> <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <figure class="project-visual real-project-shot real-project-shot-delta">
+              <a
+                href="https://deltatools.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Abrir o aplicativo delta.tools"
+              >
+                <img
+                  src="assets/projects/delta-ui.png"
+                  alt="Painel real do delta.tools mostrando ferramentas de conversão no navegador"
+                  width="1600"
+                  height="1000"
+                  loading="lazy"
+                />
+              </a>
+            </figure>
+          </article>
+
+          <div class="project-pair">
+            <article class="project project-compact project-replace reveal">
+              <div class="project-meta">
+                <span>03</span>
+                <span data-i18n="mobileProduct">Produto mobile</span>
+              </div>
+              <figure class="compact-visual real-mobile-gallery">
+                <img
+                  src="assets/projects/replace-map.png"
+                  alt="Tela inicial real do RePlace saudando Bryan e listando pontos de reciclagem próximos"
+                  width="576"
+                  height="1280"
+                  loading="lazy"
+                />
+                <img
+                  src="assets/projects/replace-detail.png"
+                  alt="Tela real do RePlace mostrando locais de reciclagem em Ponta Grossa"
+                  width="576"
+                  height="1280"
+                  loading="lazy"
+                />
+              </figure>
+              <h3>RePlace</h3>
+              <p data-i18n="replaceLead">
+                Um app React Native que ajuda pessoas a encontrar pontos próximos para reciclar
+                pilhas e baterias e descartar lixo eletrônico corretamente.
+              </p>
+              <div class="tech-list"><span>React Native</span><span>Expo</span><span>Google Maps</span></div>
+              <a
+                class="project-card-link"
+                href="https://github.com/bryanrafaelbueno/RePlace"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="viewProject">Ver projeto</span> <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project project-compact project-stremio reveal reveal-delay-short">
+              <div class="project-meta">
+                <span>04</span>
+                <span data-i18n="desktopIntegration">Integração desktop</span>
+              </div>
+              <figure class="compact-visual real-stremio-shot">
+                <img
+                  src="assets/projects/stremiorpc-ui.png"
+                  alt="Resultado real do StremioRPC no Discord mostrando um episódio do Stremio"
+                  width="286"
+                  height="124"
+                  loading="lazy"
+                />
+              </figure>
+              <h3>StremioRPC</h3>
+              <p data-i18n="stremioLead">
+                Um app desktop em Electron que transforma a atividade atual do Stremio em Rich
+                Presence no Discord, com bandeja e inicialização automática.
+              </p>
+              <div class="tech-list"><span>Electron</span><span>Node.js</span><span>Discord RPC</span></div>
+              <a
+                class="project-card-link"
+                href="https://github.com/bryanrafaelbueno/StremioRPC"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="viewProject">Ver projeto</span> <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="all-work reveal">
+          <p data-i18n="moreWork">Há mais para explorar: de chat em JavaFX a scanner LAN e ferramentas para jogos.</p>
+          <a
+            class="button button-outline"
+            href="https://github.com/bryanrafaelbueno?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span data-i18n="allRepositories">Ver todos os repositórios</span>
+            <span class="button-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about">
+        <div class="about-heading reveal">
+          <p class="section-index">02 / <span data-i18n="aboutMe">Sobre mim</span></p>
+          <h2>
+            <span class="language-content" data-language-content="en" hidden>
+              Hi, I’m Bryan.<br />I like building the <em>whole thing.</em>
+            </span>
+            <span class="language-content" data-language-content="pt">
+              Oi, eu sou o Bryan.<br />Gosto de construir <em>o produto inteiro.</em>
+            </span>
+          </h2>
+        </div>
+
+        <div class="about-body reveal reveal-delay-short">
+          <p class="about-lead" data-i18n="aboutLead">
+            Sou estudante de Desenvolvimento de Sistemas no SENAI e tenho mais de cinco anos de
+            prática com programação. Aprendo entregando: encontro uma necessidade real, escolho as
+            ferramentas certas e levo o trabalho até algo que as pessoas possam usar.
+          </p>
+          <p data-i18n="aboutBody">
+            Meus projetos passam por aplicações web, sistemas desktop, APIs, produtos mobile e
+            ferramentas de mais baixo nível. Essa variedade me ajuda a entender todo o caminho, do
+            que o usuário vê ao que precisa continuar confiável por trás.
+          </p>
+          <dl class="profile-facts">
+            <div><dt data-i18n="education">Formação</dt><dd data-i18n="educationValue">Desenvolvimento de Sistemas · SENAI</dd></div>
+            <div><dt data-i18n="location">Localização</dt><dd>Ponta Grossa · Paraná · Brasil</dd></div>
+            <div><dt data-i18n="languages">Idiomas</dt><dd data-i18n="languagesValue">Português · Inglês</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="capabilities section-shell" id="capabilities">
+        <div class="section-heading compact-heading reveal">
+          <p class="section-index">03 / <span data-i18n="capabilities">Competências</span></p>
+          <h2 data-i18n="capabilitiesHeading">Onde posso contribuir.</h2>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability reveal">
+            <span class="capability-number">01</span>
+            <h3 data-i18n="capProduct">Engenharia de produto</h3>
+            <p data-i18n="capProductText">Transformar necessidades abertas em software bem definido e utilizável, com decisões conscientes de UX.</p>
+            <div class="cap-tags"><span>Discovery</span><span>Architecture</span><span>UX</span></div>
+          </article>
+          <article class="capability reveal reveal-delay-short">
+            <span class="capability-number">02</span>
+            <h3 data-i18n="capSystems">Sistemas e desktop</h3>
+            <p data-i18n="capSystemsText">Apps multiplataforma, serviços em segundo plano, arquivos, redes e integrações nativas.</p>
+            <div class="cap-tags"><span>Go</span><span>Rust</span><span>Java</span><span>Electron</span></div>
+          </article>
+          <article class="capability reveal">
+            <span class="capability-number">03</span>
+            <h3 data-i18n="capWeb">Web e APIs</h3>
+            <p data-i18n="capWebText">Interfaces responsivas e backends pragmáticos, com atenção a privacidade, testes e manutenção.</p>
+            <div class="cap-tags"><span>TypeScript</span><span>React</span><span>Node.js</span><span>SQL</span></div>
+          </article>
+          <article class="capability reveal reveal-delay-short">
+            <span class="capability-number">04</span>
+            <h3 data-i18n="capMobile">Desenvolvimento mobile</h3>
+            <p data-i18n="capMobileText">Experiências mobile úteis, construídas em torno do contexto real, mapas e interações claras.</p>
+            <div class="cap-tags"><span>React Native</span><span>Expo</span><span>Maps APIs</span></div>
+          </article>
+        </div>
+
+        <div class="principles reveal">
+          <p class="section-index">04 / <span data-i18n="principles">Como trabalho</span></p>
+          <div class="principle-list">
+            <div><strong data-i18n="principle1">Começar pelo problema do usuário</strong><span>01</span></div>
+            <div><strong data-i18n="principle2">Assumir o caminho da ideia ao release</strong><span>02</span></div>
+            <div><strong data-i18n="principle3">Tornar a complexidade compreensível</strong><span>03</span></div>
+            <div><strong data-i18n="principle4">Documentar para que outros possam continuar</strong><span>04</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-inner section-shell reveal">
+          <p class="section-index">05 / <span data-i18n="contact">Contato</span></p>
+          <div class="contact-grid">
+            <h2>
+              <span class="language-content" data-language-content="en" hidden>
+                Have a problem<br />worth <em>solving?</em>
+              </span>
+              <span class="language-content" data-language-content="pt">
+                Tem um problema<br />que vale <em>resolver?</em>
+              </span>
+            </h2>
+            <div class="contact-copy">
+              <p data-i18n="contactText">
+                Estou aberto a oportunidades em desenvolvimento de software e colaborações sérias
+                onde eu possa criar produtos úteis, aprender rápido e contribuir com um time forte.
+              </p>
+              <div class="contact-links">
+                <a
+                  class="contact-button"
+                  href="https://www.linkedin.com/in/bryan-rafael-bueno-0481963a9/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="connectLinkedIn">Conectar no LinkedIn</span><span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="contact-button contact-button-secondary"
+                  href="https://github.com/bryanrafaelbueno"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="followGitHub">Acompanhar no GitHub</span><span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <p>© <span data-year>2026</span> Bryan Rafael Bueno Ribeiro</p>
+        <a href="#top"><span data-i18n="backTop">Voltar ao topo</span> ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

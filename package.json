@@ -1,0 +1,10 @@
+{
+  "name": "bryan-rafael-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional bilingual portfolio for Bryan Rafael Bueno Ribeiro",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "check": "node --check script.js"
+  }
+}

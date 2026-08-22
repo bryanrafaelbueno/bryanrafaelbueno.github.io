@@ -15,7 +15,7 @@ Then open `http://localhost:4173`.
 - `index.html`: semantic content and project case studies
 - `styles.css`: responsive editorial design and real-image presentation
 - `script.js`: EN/PT language switch, navigation, and subtle motion
-- `assets/profile`: Bryan's portrait and profile icons
+- `assets/profile`: Bryan's portrait, profile icons, and social sharing image
 - `assets/projects`: original UI images from Bryan's repositories and live projects
 
 No install or build step is required.

@@ -36,6 +36,14 @@ const translations = {
     deltaPoint2: "Sandboxed community plugins with an offline-first runtime",
     deltaPoint3: "Account favorites, JWT auth, and Playwright coverage",
     liveProduct: "Live product",
+    stemEngineering: "STEM Racing · Engineering",
+    sennaxLead:
+      "I am the engineer for SennaX, a team competing in STEM Racing, a global educational competition supported by Formula 1. I help turn concepts into a competition car through design, iteration, and teamwork.",
+    sennaxPoint1: "Technical development of the car for the STEM Racing competition",
+    sennaxPoint2: "An engineering cycle connecting concept, CAD, manufacturing, and the track",
+    sennaxPoint3: "Car render produced during the team’s development process",
+    meetTeam: "Meet the team",
+    aboutStemRacing: "About STEM Racing",
     mobileProduct: "Mobile product",
     replaceLead:
       "A React Native app that helps people find nearby battery recycling points and dispose of electronic waste responsibly.",
@@ -49,10 +57,11 @@ const translations = {
     aboutLead:
       "I’m a Systems Development student at SENAI with more than five years of hands-on programming practice. I learn by shipping: finding a real need, choosing the right tools, and carrying the work through to something people can use.",
     aboutBody:
-      "My projects move between web applications, desktop systems, APIs, mobile products, and lower-level tools. That range helps me understand the whole path, from what a user sees to what must stay reliable behind it.",
+      "My projects move between web applications, desktop systems, APIs, mobile products, and lower-level tools. Beyond software, I am the engineer for SennaX in STEM Racing, an experience that broadens how I think about design, iteration, and collaboration.",
     education: "Education",
     educationValue: "Systems Development · SENAI",
     location: "Location",
+    team: "Team",
     languages: "Languages",
     languagesValue: "Portuguese · English",
     capabilities: "Capabilities",
@@ -114,6 +123,14 @@ const translations = {
     deltaPoint2: "Plugins da comunidade isolados em sandbox e runtime offline-first",
     deltaPoint3: "Favoritos por conta, autenticação JWT e cobertura Playwright",
     liveProduct: "Abrir produto",
+    stemEngineering: "STEM Racing · Engenharia",
+    sennaxLead:
+      "Sou o engenheiro da SennaX, equipe que participa do STEM Racing, uma competição educacional global apoiada pela Formula 1. Contribuo para transformar conceitos em um carro de competição por meio de projeto, iteração e trabalho em equipe.",
+    sennaxPoint1: "Desenvolvimento técnico do carro para a competição STEM Racing",
+    sennaxPoint2: "Ciclo de engenharia que conecta concepção, CAD, fabricação e pista",
+    sennaxPoint3: "Render do carro produzido durante o desenvolvimento da equipe",
+    meetTeam: "Conhecer a equipe",
+    aboutStemRacing: "Sobre o STEM Racing",
     mobileProduct: "Produto mobile",
     replaceLead:
       "Um app React Native que ajuda pessoas a encontrar pontos próximos para reciclar pilhas e baterias e descartar lixo eletrônico corretamente.",
@@ -127,10 +144,11 @@ const translations = {
     aboutLead:
       "Sou estudante de Desenvolvimento de Sistemas no SENAI e tenho mais de cinco anos de prática com programação. Aprendo entregando: encontro uma necessidade real, escolho as ferramentas certas e levo o trabalho até algo que as pessoas possam usar.",
     aboutBody:
-      "Meus projetos passam por aplicações web, sistemas desktop, APIs, produtos mobile e ferramentas de mais baixo nível. Essa variedade me ajuda a entender todo o caminho, do que o usuário vê ao que precisa continuar confiável por trás.",
+      "Meus projetos passam por aplicações web, sistemas desktop, APIs, produtos mobile e ferramentas de mais baixo nível. Além do software, sou o engenheiro da SennaX no STEM Racing, uma experiência que amplia como penso em projeto, iteração e colaboração.",
     education: "Formação",
     educationValue: "Desenvolvimento de Sistemas · SENAI",
     location: "Localização",
+    team: "Equipe",
     languages: "Idiomas",
     languagesValue: "Português · Inglês",
     capabilities: "Competências",
@@ -185,8 +203,8 @@ function setLanguage(language) {
 
   const description =
     chosen === "pt"
-      ? "Portfólio de Bryan Rafael Bueno Ribeiro, desenvolvedor de software com projetos web, mobile, desktop e de sistemas."
-      : "Portfolio of Bryan Rafael Bueno Ribeiro, a software developer building useful web, mobile, desktop, and systems products.";
+      ? "Portfólio de Bryan Rafael Bueno Ribeiro, desenvolvedor de software e engenheiro da SennaX no STEM Racing."
+      : "Portfolio of Bryan Rafael Bueno Ribeiro, a software developer and SennaX engineer in STEM Racing.";
   document.querySelector('meta[name="description"]').setAttribute("content", description);
   document.title =
     chosen === "pt"
